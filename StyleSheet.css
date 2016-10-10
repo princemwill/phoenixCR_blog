@@ -4,7 +4,7 @@
 }
 
 div {
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .right {
@@ -14,7 +14,7 @@ div {
 #header-container {
     /*margin: auto;*/
     /*background: red repeat scroll 0 0 #000;*/
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #112a04;
     border-top: 10px solid #000;
     height: 200px;
     padding-bottom: 30px;
@@ -22,7 +22,18 @@ div {
     width: 100%;
     z-index: 20;
 }
+.header-section{
 
+}
+#header{
+
+}
+.description-container{
+
+}
+.description{
+
+}
 #nav-container {
     border-bottom: 2px solid #fff;
     margin-top: 0;
@@ -31,23 +42,28 @@ div {
 }
 
 #content-container {
-    background: none repeat scroll 0 0 #000;
+    /*background: none repeat scroll 0 0 #000;*/
     float: left;
     margin-top: 15px;
     width: 100%;
 }
 
 #main-container {
-    margin: auto;
-    width: 50%;
+    float: left;
+    margin: 50px 0 0 1px;
+    max-width: 67%;
+    padding: 20px;
+    width: 100%;
     background-color: red;
-    padding: 70px;
 }
 
-#side-container {
+#side-container {    
+    background: none repeat scroll 0 0 red;
     float: right;
-    width: 18%;
-    background-color: red;
+    margin: 50px 0 0;
+    /*overflow: hidden;*/
+    padding: 20px 0 0;
+    width: 25.7%;
 }
 
 #archive {
