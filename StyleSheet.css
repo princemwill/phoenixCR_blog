@@ -5,6 +5,11 @@
 
 div {
     /*background-color: red;*/
+    /*display: block;*/
+}
+
+ul {
+    list-style-type: none;
 }
 
 .right {
@@ -14,6 +19,7 @@ div {
 #header-container {
     /*margin: auto;*/
     /*background: red repeat scroll 0 0 #000;*/
+    background: green;
     border-bottom: 1px solid #112a04;
     border-top: 10px solid #000;
     height: 200px;
@@ -22,24 +28,91 @@ div {
     width: 100%;
     z-index: 20;
 }
-.header-section{
 
+.header-section {
 }
-#header{
 
+#header {
 }
-.description-container{
 
+.title-container {
 }
-.description{
 
+.title {
+    color: #b4b405;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    line-height: 0;
+    margin: 0;
+    padding: 50px 0;
+    text-transform: uppercase;
 }
+
+.description-container {
+}
+
+.description {
+}
+
 #nav-container {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid red;
     margin-top: 0;
     position: relative;
     width: 100%;
 }
+
+.menus {
+    /*list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4b405;
+}
+
+
+    .menus li {
+        float: left;       
+    }
+
+    /*Begin stlying for all list items, hover effects etc*/ 
+   li a, .dropbtn {
+        display:inline-block;
+        color: white;
+        text-align: center;
+         padding: 14px 16px;
+        text-decoration: none;
+    }
+   li a:hover, .dropdown:hover .dropbtn {
+        background-color: red; 
+    }
+   li.dropdown {
+        display: inline-block;
+    }
+    .dropdown-content{
+         display: none;
+    position: absolute;
+    background-color: #b4b405;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }   
+    .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    /*End stlying for all list items, hover effects etc*/ 
+
 
 #content-container {
     /*background: none repeat scroll 0 0 #000;*/
@@ -57,7 +130,7 @@ div {
     background-color: red;
 }
 
-#side-container {    
+#side-container {
     background: none repeat scroll 0 0 red;
     float: right;
     margin: 50px 0 0;
